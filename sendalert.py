@@ -12,7 +12,7 @@ last_question_alert = None
 
 # Send alert to Slack
 def send_slack_alert(message):
-    webhook_url = "https://hooks.slack.com/services/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"
+    webhook_url = "https://hooks.slack.com/services/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"
     payload = {"text": message}  # FIXED: was "test", should be "text"
     requests.post(webhook_url, json=payload)
 
@@ -47,14 +47,14 @@ def handle_stats(count_positive, count_negative, questions):
 
 if __name__ == "__main__":
     # Dummy test data
-    dummy_count_positive = 5
-    dummy_count_negative = 12  # > threshold → should trigger alert
+    dummy_count_positive = 6
+    dummy_count_negative = 20  # > threshold → should trigger alert
     dummy_questions = [
-        "How do I track my package?",
-        "When will my refund be issued?",
+        "Why was my package returned to sender?",
+        "When will my refund be processed?",
         "Nobody has replied to my query!",
-        "Why is the app crashing?",
-        "Is my subscription active?"
+        "Why was I charged twice?",
+        "I’m getting an error code 403"
     ]  # → should also trigger question alert
 
     handle_stats(dummy_count_positive, dummy_count_negative, dummy_questions)
