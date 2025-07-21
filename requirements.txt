@@ -1,0 +1,7 @@
+transformers~=4.41.0
+torch>=2.2
+openrouter          
+pandas>=2.0
+streamlit==1.35     # only needed for dashboard.py
+slack_sdk==3.27.2   # simple Slack wrapper
+tqdm

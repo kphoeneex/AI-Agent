@@ -1,0 +1,32 @@
+timestamp,text,channel,sentiment,emotion,type,urgency,confidence
+2025-07-21 12:00:00,Where is my order? It's 40 minutes late!,chat,negative,anger,question,medium,0.693
+2025-07-21 12:02:00,Thank you for the quick support yesterday.,email,positive,joy,praise,low,0.991
+2025-07-21 12:04:00,Still no resolution on my refund.,ticket,negative,anger,complaint,high,0.918
+2025-07-21 12:06:00,Can you update me on the status?,chat,negative,joy,question,medium,0.925
+2025-07-21 12:08:00,Extremely disappointed. This keeps happening!,email,negative,sadness,complaint,medium,0.995
+2025-07-21 12:10:00,Food was cold and missing items again.,chat,negative,anger,complaint,medium,0.996
+2025-07-21 12:12:00,Great job on the new interface!,ticket,positive,joy,praise,low,0.994
+2025-07-21 12:14:00,Third time this week there's a delay!,email,negative,anger,complaint,medium,0.908
+2025-07-21 12:16:00,I want to cancel my order now.,chat,negative,sadness,complaint,high,0.528
+2025-07-21 12:18:00,Thanks for fixing the payment bug!,ticket,positive,joy,praise,low,0.976
+2025-07-21 12:20:00,Can someone please call me?,chat,negative,joy,request,medium,0.834
+2025-07-21 12:22:00,Still waiting on that callback!,email,negative,anger,question,medium,0.95
+2025-07-21 12:24:00,Excellent service as always.,ticket,positive,joy,praise,low,0.998
+2025-07-21 12:26:00,Missing delivery again. Unacceptable.,chat,negative,sadness,complaint,high,0.844
+2025-07-21 12:28:00,Please escalate this to a manager.,email,positive,anger,complaint,low,0.861
+2025-07-21 12:30:00,Is my coupon still valid?,chat,negative,joy,question,medium,0.913
+2025-07-21 12:32:00,I’m very happy with the recent changes!,ticket,positive,joy,praise,low,0.999
+2025-07-21 12:34:00,Delivery driver was rude.,chat,negative,anger,complaint,medium,0.998
+2025-07-21 12:36:00,Hello? Anyone there?,ticket,negative,fear,question,medium,0.423
+2025-07-21 12:38:00,Issue with billing please assist.,email,positive,joy,request,low,0.712
+2025-07-21 12:40:00,Not what I ordered at all.,chat,negative,anger,complaint,medium,0.987
+2025-07-21 12:42:00,Well done team. Resolved super fast!,ticket,positive,joy,praise,low,0.998
+2025-07-21 12:44:00,I’ve emailed twice and no response.,email,negative,anger,question,medium,0.751
+2025-07-21 12:46:00,Why does this always happen during dinner?,chat,negative,anger,question,medium,0.886
+2025-07-21 12:48:00,Happy to see quick fixes lately.,ticket,positive,joy,praise,low,0.999
+2025-07-21 12:50:00,Still no one has contacted me back!,email,negative,fear,question,medium,0.898
+2025-07-21 12:52:00,My order was perfect. Thanks!,ticket,positive,joy,praise,low,0.998
+2025-07-21 12:54:00,App keeps crashing when I checkout.,chat,negative,fear,complaint,medium,0.945
+2025-07-21 12:56:00,Refund me. This is unacceptable.,email,negative,anger,complaint,high,0.982
+2025-07-21 12:58:00,Can I get a replacement please?,chat,negative,joy,request,medium,0.526
+2025-07-21 13:00:00,Appreciate the follow-up call!,email,positive,joy,praise,low,0.997
